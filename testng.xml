@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/rupes/IdeaProjects/TestNGProject/test-output">
+    <test verbose="2" preserve-order="true" name="C:/Users/rupes/IdeaProjects/TestNGProject">
         <classes>
-            <class name="TestNG.TestNG.CurrentACTestClass1"></class>
-            <class name="TestNG.TestNG.CurrentACTestClass2"></class>
+<!--            <class name="TestNG.TestNG.CurrentACTestClass1">-->
+<!--                <methods>-->
+<!--                    <include name="test1"/>-->
+<!--                    <include name="test2"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="TestNG.TestNG.CurrentACTestClass2">-->
+<!--                <methods>-->
+<!--                    <include name="test1"/>-->
+<!--                    <include name="test2"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="TestNG.TestNG.LoneDepartment">
+                <methods>
+<!--                    <include name="MobileLoginPersonalLoan"/>-->
+<!--                    <include name="WebLoginPersonalLoan"/>-->
+<!--                    <exclude name="APILoginPersonalLoan"/>-->
+<!--                    <include name="MobileLoginAutomobileLoan"/>-->
+<!--                    <exclude name="WebLoginAutomobileLoan"/>-->
+<!--                    <include name="APILoginAutomobileLoan"/>-->
+<!--                    <include name="API.*"/>-->
+                </methods>
+            </class>
+<!--            <class name="TestNG.TestNG.TestNGExample">-->
+<!--                <methods>-->
+<!--                    <include name="test1"/>-->
+<!--                    <include name="test2"/>-->
+<!--                </methods>-->
+<!--            </class>-->
         </classes>
     </test>
 </suite>

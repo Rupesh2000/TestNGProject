@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="873bff15-2cc5-42c8-9ce3-2ad38133b92b" name="Changes" comment="TEST_NG_XML_FILE" />
+    <list default="true" id="873bff15-2cc5-42c8-9ce3-2ad38133b92b" name="Changes" comment="TEST_NG_XML_FILE">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/LoneDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,6 +107,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoneDepartment" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNG.TestNG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNG.TestNG" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.LoneDepartment" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestNGExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
@@ -119,38 +141,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGExample.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNG.TestNG.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestNG.TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.TestNGExample" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="TestNG.CurrentACTestClass2" />
       <item itemvalue="TestNG.CurrentACTestClass2.test2" />
+      <item itemvalue="TestNG.LoneDepartment" />
       <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/testng.xml" />
       <item itemvalue="TestNG.TestNGExample" />
-      <item itemvalue="TestNG.TestNGExample.test1" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/testng.xml" />
+        <item itemvalue="TestNG.LoneDepartment" />
         <item itemvalue="TestNG.CurrentACTestClass2" />
         <item itemvalue="TestNG.CurrentACTestClass2.test2" />
         <item itemvalue="TestNG.TestNGExample" />
-        <item itemvalue="TestNG.TestNGExample.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675905729200</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="TEST_NG_XML_FILE">
+      <created>1675905861923</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675905861923</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
