@@ -3,35 +3,18 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/rupes/IdeaProjects/TestNGProject">
         <classes>
-<!--            <class name="TestNG.TestNG.CurrentACTestClass1">-->
+            <class name="TestNG.TestNG.TestCaseAnnot1">
 <!--                <methods>-->
 <!--                    <include name="test1"/>-->
 <!--                    <include name="test2"/>-->
 <!--                </methods>-->
-<!--            </class>-->
-<!--            <class name="TestNG.TestNG.CurrentACTestClass2">-->
-<!--                <methods>-->
-<!--                    <include name="test1"/>-->
-<!--                    <include name="test2"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-            <class name="TestNG.TestNG.LoneDepartment">
-                <methods>
-<!--                    <include name="MobileLoginPersonalLoan"/>-->
-<!--                    <include name="WebLoginPersonalLoan"/>-->
-<!--                    <exclude name="APILoginPersonalLoan"/>-->
-<!--                    <include name="MobileLoginAutomobileLoan"/>-->
-<!--                    <exclude name="WebLoginAutomobileLoan"/>-->
-<!--                    <include name="APILoginAutomobileLoan"/>-->
-<!--                    <include name="API.*"/>-->
-                </methods>
             </class>
-<!--            <class name="TestNG.TestNG.TestNGExample">-->
+            <class name="TestNG.TestNG.TestCaseAnnot2">
 <!--                <methods>-->
-<!--                    <include name="test1"/>-->
-<!--                    <include name="test2"/>-->
+<!--                    <include name="test3"/>-->
+<!--                    <include name="test4"/>-->
 <!--                </methods>-->
-<!--            </class>-->
+            </class>
         </classes>
     </test>
 </suite>
