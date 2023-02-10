@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="873bff15-2cc5-42c8-9ce3-2ad38133b92b" name="Changes" comment="TEST_NG_XML_FILE">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/TestCaseAnnot1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/TestCaseAnnot2.java" afterDir="false" />
+    <list default="true" id="873bff15-2cc5-42c8-9ce3-2ad38133b92b" name="Changes" comment="TEST_NG_XML_Annotations">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/AnnotationAttributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/GroupAttributes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,29 +51,7 @@
   }
 }]]></component>
   <component name="RunManager" selected="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/testng.xml">
-    <configuration name="C:/Users/rupes/IdeaProjects/TestNGProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="org.testng.reporters.EmailableReporter" />
-        <listener class="org.testng.reporters.FailedReporter" />
-      </listeners>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CurrentACTestClass2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AnnotationAttributes" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
         <pattern>
@@ -84,7 +60,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestNG.TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.CurrentACTestClass2" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.AnnotationAttributes" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -92,7 +68,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrentACTestClass2.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AnnotationAttributes.testCase2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +77,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestNG.TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.CurrentACTestClass2" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.AnnotationAttributes" />
+      <option name="METHOD_NAME" value="testCase2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -110,7 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoneDepartment" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AnnotationAttributes.testCase3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
         <pattern>
@@ -119,15 +95,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestNG.TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.LoneDepartment" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.AnnotationAttributes" />
+      <option name="METHOD_NAME" value="testCase3" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCaseAnnot1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/rupes/IdeaProjects/TestNGProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupAttributes" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
         <pattern>
@@ -136,7 +123,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestNG.TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.TestCaseAnnot1" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.GroupAttributes" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -145,19 +132,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestCaseAnnot1" />
-      <item itemvalue="TestNG.CurrentACTestClass2" />
-      <item itemvalue="TestNG.CurrentACTestClass2.test2" />
-      <item itemvalue="TestNG.LoneDepartment" />
+      <item itemvalue="TestNG.AnnotationAttributes" />
+      <item itemvalue="TestNG.AnnotationAttributes.testCase2" />
+      <item itemvalue="TestNG.AnnotationAttributes.testCase3" />
+      <item itemvalue="TestNG.GroupAttributes" />
       <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/testng.xml" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/testng.xml" />
-        <item itemvalue="TestNG.TestCaseAnnot1" />
-        <item itemvalue="TestNG.LoneDepartment" />
-        <item itemvalue="TestNG.CurrentACTestClass2" />
-        <item itemvalue="TestNG.CurrentACTestClass2.test2" />
+        <item itemvalue="TestNG.GroupAttributes" />
+        <item itemvalue="TestNG.AnnotationAttributes" />
+        <item itemvalue="TestNG.AnnotationAttributes.testCase3" />
+        <item itemvalue="TestNG.AnnotationAttributes.testCase2" />
       </list>
     </recent_temporary>
   </component>
@@ -198,11 +185,19 @@
       <option name="project" value="LOCAL" />
       <updated>1675912409606</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TEST_NG_XML_Annotations">
+      <created>1675985528830</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675985528830</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TEST_NG_XML_FILE" />
-    <option name="LAST_COMMIT_MESSAGE" value="TEST_NG_XML_FILE" />
+    <MESSAGE value="TEST_NG_XML_Annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="TEST_NG_XML_Annotations" />
   </component>
 </project>
