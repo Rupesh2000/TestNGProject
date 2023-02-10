@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/TestNG/TestNG/GroupAttributes.java">
-        <groups>
-            <run>
-<!--                <include name="Software Company"></include>-->
-                <include name="Automobile"></include>
-            </run>
-        </groups>
-        <classes>
-            <class name="TestNG.TestNG.GroupAttributes">
 
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/TestNG/TestNG/SoftwareClass.java">
+        <parameter name="SoftWareCompanyName" value="Infosys"></parameter>
+
+        <classes>
+            <class name="TestNG.TestNG.SoftwareClass">
+            </class>
+        </classes>
+    </test>
+
+
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/TestNG/TestNG/AutomobileClass.java">
+        <parameter name="AutoMobileName" value="Tata"></parameter>
+
+        <classes>
+            <class name="TestNG.TestNG.AutomobileClass">
             </class>
         </classes>
     </test>

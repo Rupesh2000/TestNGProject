@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="873bff15-2cc5-42c8-9ce3-2ad38133b92b" name="Changes" comment="TEST_NG_XML_Annotations">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/AnnotationAttributes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/GroupAttributes.java" afterDir="false" />
+    <list default="true" id="873bff15-2cc5-42c8-9ce3-2ad38133b92b" name="Changes" comment="TEST_NG_XML_Annotations_Attribute">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/AutomobileClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/SoftwareClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/TestNGParameterDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
@@ -192,12 +193,20 @@
       <option name="project" value="LOCAL" />
       <updated>1675985528830</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="TEST_NG_XML_Annotations_Attribute">
+      <created>1675990644473</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675990644473</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TEST_NG_XML_FILE" />
     <MESSAGE value="TEST_NG_XML_Annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="TEST_NG_XML_Annotations" />
+    <MESSAGE value="TEST_NG_XML_Annotations_Attribute" />
+    <option name="LAST_COMMIT_MESSAGE" value="TEST_NG_XML_Annotations_Attribute" />
   </component>
 </project>
