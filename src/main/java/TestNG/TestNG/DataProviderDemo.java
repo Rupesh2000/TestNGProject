@@ -17,15 +17,16 @@ public class DataProviderDemo {
     @DataProvider(name = "SearchDataSet")
     public Object[][] searchData()
     {
-        Object[][] searchKeywords = new Object[3][2];
-        searchKeywords[0][0] = "India";
-        searchKeywords[0][1] = "Qutub Minar";
+        Object[][] searchKeywords = {{"India","Qutub Minar"},{"Agra","Taj Mahal"},{"Hyderabad","Charminar"}};//new Object[3][2];
+//        searchKeywords[0][0] = "India";
+//        searchKeywords[0][1] = "Qutub Minar";
+//
+//        searchKeywords[1][0] = "Agra";
+//        searchKeywords[1][1] = "Taj Mahal";
+//
+//        searchKeywords[2][0] = "Hyderabad";
+//        searchKeywords[2][1] = "Charminar";
 
-        searchKeywords[1][0] = "Agra";
-        searchKeywords[1][1] = "Taj Mahal";
-
-        searchKeywords[2][0] = "Hyderabad";
-        searchKeywords[2][1] = "Charminar";
 
         return searchKeywords;
     }
@@ -44,7 +45,7 @@ public class DataProviderDemo {
         //enter key combination of country and monument
         searchbox.sendKeys(country + " " + monument);
 
-        driver.findElement(By.name("btnk")).submit();
+        driver.findElement(By.name("btnK")).submit();
 
     }
 }

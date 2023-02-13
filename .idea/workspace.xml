@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="873bff15-2cc5-42c8-9ce3-2ad38133b92b" name="Changes" comment="TEST_NG_XML_Annotations_Parameter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/DataProviderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/TestNGParameterGoogleSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/DataProviderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/DataProviderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/TestNGParameterGoogleSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/TestNGParameterGoogleSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675995362000</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="TEST_NG_XML_Annotations_Parameter">
+      <created>1676282997684</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676282997684</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
