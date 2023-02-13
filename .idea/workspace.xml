@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="873bff15-2cc5-42c8-9ce3-2ad38133b92b" name="Changes" comment="TEST_NG_XML_Annotations_Parameter">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/ParallelTestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/ParallelTestDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/DataProviderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/DataProviderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/TestNGParameterGoogleSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/TestNGParameterGoogleSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupAttributes" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ParallelTestDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +73,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestNG.TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.GroupAttributes" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.ParallelTestDemo" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParallelTestDemo2.verifyLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNG.TestNG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNG.TestNG" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.ParallelTestDemo2" />
+      <option name="METHOD_NAME" value="verifyLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -91,24 +110,6 @@
       <option name="PACKAGE_NAME" value="TestNG.TestNG" />
       <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.TestNGParameterGoogleSearch" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNGParameterGoogleSearch.GoogleSearch" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNG.TestNG.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestNG.TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.TestNGParameterGoogleSearch" />
-      <option name="METHOD_NAME" value="GoogleSearch" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -134,19 +135,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.GroupAttributes" />
+      <item itemvalue="TestNG.ParallelTestDemo" />
+      <item itemvalue="TestNG.ParallelTestDemo2.verifyLogin" />
       <item itemvalue="TestNG.TestNGParameterGoogleSearch" />
-      <item itemvalue="TestNG.TestNGParameterGoogleSearch.GoogleSearch" />
       <item itemvalue="TestNG.TestNGParameterGoogleSearch.googleSearch" />
       <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/testng.xml" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/testng.xml" />
+        <item itemvalue="TestNG.ParallelTestDemo2.verifyLogin" />
+        <item itemvalue="TestNG.ParallelTestDemo" />
         <item itemvalue="TestNG.TestNGParameterGoogleSearch" />
         <item itemvalue="TestNG.TestNGParameterGoogleSearch.googleSearch" />
-        <item itemvalue="TestNG.TestNGParameterGoogleSearch.GoogleSearch" />
-        <item itemvalue="TestNG.GroupAttributes" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676282997684</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="TEST_NG_XML_Annotations_Parameter">
+      <created>1676313200326</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676313200326</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
