@@ -1,0 +1,7 @@
+<suite name="Master Test Suite">
+    <suite-files>
+        <suite-file path="SanityTestSuite.xml"/>
+        <suite-file path="FunctionalTestSuite.xml"/>
+
+    </suite-files>
+</suite>

@@ -1,0 +1,8 @@
+<suite name="Functional Test Suite">
+    <test name="Functional Testing">
+        <classes>
+            <class name="BatchTesting.PaymentTest"/>
+            <class name="BatchTesting.ProductPageTest"/>
+        </classes>
+    </test>
+</suite>

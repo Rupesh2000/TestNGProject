@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="873bff15-2cc5-42c8-9ce3-2ad38133b92b" name="Changes" comment="TestNG_Listeners">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/AssertionDemo.java" afterDir="false" />
+    <list default="true" id="873bff15-2cc5-42c8-9ce3-2ad38133b92b" name="Changes" comment="TestNG_Assertion">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BatchTesting/FunctionalTestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BatchTesting/HomeScreenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BatchTesting/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BatchTesting/MasterTestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BatchTesting/PaymentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BatchTesting/ProductPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BatchTesting/SanityTestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,18 +58,31 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.AssertionDemo">
-    <configuration name="AssertionDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/testng.xml">
+    <configuration name="C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/FunctionalTestSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNG.TestNG.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestNG.TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.AssertionDemo" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/BatchTesting/FunctionalTestSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/MasterTestSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/BatchTesting/MasterTestSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/SanityTestSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/BatchTesting/SanityTestSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -79,52 +99,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListenerDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestNG.TestNG.*" />
+          <option name="PATTERN" value="BatchTesting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestNG.TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.ListenerDemo" />
+      <option name="PACKAGE_NAME" value="BatchTesting" />
+      <option name="MAIN_CLASS_NAME" value="BatchTesting.LoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParallelTestDemo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNG.TestNG.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestNG.TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.ParallelTestDemo" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParallelTestDemo2.verifyLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNG.TestNG.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestNG.TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.ParallelTestDemo2" />
-      <option name="METHOD_NAME" value="verifyLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -132,19 +117,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.AssertionDemo" />
-      <item itemvalue="TestNG.ListenerDemo" />
-      <item itemvalue="TestNG.ParallelTestDemo" />
-      <item itemvalue="TestNG.ParallelTestDemo2.verifyLogin" />
+      <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/FunctionalTestSuite.xml" />
+      <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/MasterTestSuite.xml" />
+      <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/SanityTestSuite.xml" />
+      <item itemvalue="TestNG.LoginTest" />
       <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/testng.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AssertionDemo" />
         <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/testng.xml" />
-        <item itemvalue="TestNG.ListenerDemo" />
-        <item itemvalue="TestNG.ParallelTestDemo2.verifyLogin" />
-        <item itemvalue="TestNG.ParallelTestDemo" />
+        <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/MasterTestSuite.xml" />
+        <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/FunctionalTestSuite.xml" />
+        <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/SanityTestSuite.xml" />
+        <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676785742133</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="TestNG_Assertion">
+      <created>1676873339019</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676873339019</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -243,6 +235,7 @@
     <MESSAGE value="TEST_NG_XML_Annotations_Attribute" />
     <MESSAGE value="TEST_NG_XML_Annotations_Parameter" />
     <MESSAGE value="TestNG_Listeners" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNG_Listeners" />
+    <MESSAGE value="TestNG_Assertion" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG_Assertion" />
   </component>
 </project>

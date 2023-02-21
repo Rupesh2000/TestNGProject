@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <listeners>
-        <listener class-name="TestNG.TestNG.ListenerClass"></listener>
-    </listeners>
-    <test verbose="2" preserve-order="true"
-          name="C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/TestNG/TestNG/ListenerDemo.java">
+    <test verbose="2" preserve-order="true" name="C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting">
         <classes>
-            <class name="TestNG.TestNG.ListenerDemo">
-<!--                <methods>-->
-<!--                    <include name="login"/>-->
-<!--                    <include name="testFail"/>-->
-<!--                    <include name="testSkipped"/>-->
-<!--                </methods>-->
+            <class name="BatchTesting.HomeScreenTest">
+                <methods>
+                    <include name="LaunchApplication"/>
+                    <include name="VerifyTitle"/>
+                    <include name="VerifyLogo"/>
+                </methods>
+            </class>
+            <class name="BatchTesting.LoginTest">
+                <methods>
+                    <include name="LoginByMobileNumber"/>
+                    <include name="LoginByEmail"/>
+                </methods>
+            </class>
+            <class name="BatchTesting.PaymentTest">
+                <methods>
+                    <include name="CashOnDelivery"/>
+                    <include name="NetBanking"/>
+                </methods>
+            </class>
+            <class name="BatchTesting.ProductPageTest">
+                <methods>
+                    <include name="AddProductToWishList"/>
+                    <include name="AddProductToCart"/>
+                    <include name="SelectQuantity"/>
+                </methods>
             </class>
         </classes>
     </test>
