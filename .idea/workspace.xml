@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="873bff15-2cc5-42c8-9ce3-2ad38133b92b" name="Changes" comment="TestNG_Assertion">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BatchTesting/FunctionalTestSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BatchTesting/HomeScreenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BatchTesting/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BatchTesting/MasterTestSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BatchTesting/PaymentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BatchTesting/ProductPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BatchTesting/SanityTestSuite.xml" afterDir="false" />
+    <list default="true" id="873bff15-2cc5-42c8-9ce3-2ad38133b92b" name="Changes" comment="TestNG_Batch_Testing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/InvocationCountDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
@@ -99,16 +93,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="InvocationCountDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BatchTesting.*" />
+          <option name="PATTERN" value="TestNG.TestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BatchTesting" />
-      <option name="MAIN_CLASS_NAME" value="BatchTesting.LoginTest" />
+      <option name="PACKAGE_NAME" value="TestNG.TestNG" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.TestNG.InvocationCountDemo" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -120,16 +114,16 @@
       <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/FunctionalTestSuite.xml" />
       <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/MasterTestSuite.xml" />
       <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/SanityTestSuite.xml" />
-      <item itemvalue="TestNG.LoginTest" />
+      <item itemvalue="TestNG.InvocationCountDemo" />
       <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/testng.xml" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/testng.xml" />
+        <item itemvalue="TestNG.InvocationCountDemo" />
         <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/MasterTestSuite.xml" />
         <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/FunctionalTestSuite.xml" />
         <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/SanityTestSuite.xml" />
-        <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676873339019</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="TestNG_Batch_Testing">
+      <created>1677003120857</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677003120857</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -236,6 +237,7 @@
     <MESSAGE value="TEST_NG_XML_Annotations_Parameter" />
     <MESSAGE value="TestNG_Listeners" />
     <MESSAGE value="TestNG_Assertion" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNG_Assertion" />
+    <MESSAGE value="TestNG_Batch_Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG_Batch_Testing" />
   </component>
 </project>
