@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="873bff15-2cc5-42c8-9ce3-2ad38133b92b" name="Changes" comment="TestNG_Batch_Testing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNG/InvocationCountDemo.java" afterDir="false" />
+    <list default="true" id="873bff15-2cc5-42c8-9ce3-2ad38133b92b" name="Changes" comment="TestNG_Invocation_Count">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CrossBrowserTesting/CrossBrowserTestingDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
@@ -53,40 +53,61 @@
   }
 }</component>
   <component name="RunManager" selected="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/testng.xml">
-    <configuration name="C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/FunctionalTestSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/BatchTesting/FunctionalTestSuite.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/MasterTestSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/BatchTesting/MasterTestSuite.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/SanityTestSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/BatchTesting/SanityTestSuite.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="C:/Users/rupes/IdeaProjects/TestNGProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrossBrowserTestingDemo (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CrossBrowserTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CrossBrowserTesting" />
+      <option name="MAIN_CLASS_NAME" value="CrossBrowserTesting.CrossBrowserTestingDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrossBrowserTestingDemo (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CrossBrowserTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CrossBrowserTesting" />
+      <option name="MAIN_CLASS_NAME" value="CrossBrowserTesting.CrossBrowserTestingDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrossBrowserTestingDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CrossBrowserTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CrossBrowserTesting" />
+      <option name="MAIN_CLASS_NAME" value="CrossBrowserTesting.CrossBrowserTestingDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -111,19 +132,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/FunctionalTestSuite.xml" />
-      <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/MasterTestSuite.xml" />
-      <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/SanityTestSuite.xml" />
+      <item itemvalue="TestNG.CrossBrowserTestingDemo" />
+      <item itemvalue="TestNG.CrossBrowserTestingDemo (1)" />
+      <item itemvalue="TestNG.CrossBrowserTestingDemo (2)" />
       <item itemvalue="TestNG.InvocationCountDemo" />
       <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/testng.xml" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/testng.xml" />
+        <item itemvalue="TestNG.CrossBrowserTestingDemo (2)" />
+        <item itemvalue="TestNG.CrossBrowserTestingDemo" />
+        <item itemvalue="TestNG.CrossBrowserTestingDemo (1)" />
         <item itemvalue="TestNG.InvocationCountDemo" />
-        <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/MasterTestSuite.xml" />
-        <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/FunctionalTestSuite.xml" />
-        <item itemvalue="TestNG.C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/BatchTesting/SanityTestSuite.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677003120857</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="TestNG_Invocation_Count">
+      <created>1677034768293</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677034768293</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -238,6 +266,7 @@
     <MESSAGE value="TestNG_Listeners" />
     <MESSAGE value="TestNG_Assertion" />
     <MESSAGE value="TestNG_Batch_Testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNG_Batch_Testing" />
+    <MESSAGE value="TestNG_Invocation_Count" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG_Invocation_Count" />
   </component>
 </project>

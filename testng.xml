@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/TestNG/TestNG/InvocationCountDemo.java">
+<suite name="All Test Suite" parallel="tests">
+    <test verbose="2" preserve-order="true" name="TestOnEdge">
+          <parameter name="browser" value="MSEDGE"/>
+<!--          name="C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/CrossBrowserTesting/CrossBrowserTestingDemo.java">-->
         <classes>
-            <class name="TestNG.TestNG.InvocationCountDemo">
+            <class name="CrossBrowserTesting.CrossBrowserTestingDemo">
 <!--                <methods>-->
-<!--                    <include name="testMethod1"/>-->
-<!--                    <include name="testMethod2"/>-->
+<!--                    <include name="verifyTitle"/>-->
 <!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="TestOnChrome">
+        <parameter name="browser" value="chrome"/>
+        <!--          name="C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/CrossBrowserTesting/CrossBrowserTestingDemo.java">-->
+        <classes>
+            <class name="CrossBrowserTesting.CrossBrowserTestingDemo">
+                <!--                <methods>-->
+                <!--                    <include name="verifyTitle"/>-->
+                <!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="TestOnFirefox">
+        <parameter name="browser" value="Firefox"/>
+        <!--          name="C:/Users/rupes/IdeaProjects/TestNGProject/src/main/java/CrossBrowserTesting/CrossBrowserTestingDemo.java">-->
+        <classes>
+            <class name="CrossBrowserTesting.CrossBrowserTestingDemo">
+                <!--                <methods>-->
+                <!--                    <include name="verifyTitle"/>-->
+                <!--                </methods>-->
             </class>
         </classes>
     </test>
