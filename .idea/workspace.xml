@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="873bff15-2cc5-42c8-9ce3-2ad38133b92b" name="Changes" comment="TestNG_Invocation_Count">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CrossBrowserTesting/CrossBrowserTestingDemo.java" afterDir="false" />
+    <list default="true" id="873bff15-2cc5-42c8-9ce3-2ad38133b92b" name="Changes" comment="TestNG_CrossBrowser">
+      <change afterPath="$PROJECT_DIR$/src/main/java/RetryLogicDemo/RetryAnalyser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RetryLogicDemo/RetryListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RetryLogicDemo/TestCasesExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
@@ -255,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677034768293</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="TestNG_CrossBrowser">
+      <created>1677166841764</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677166841764</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -267,6 +276,7 @@
     <MESSAGE value="TestNG_Assertion" />
     <MESSAGE value="TestNG_Batch_Testing" />
     <MESSAGE value="TestNG_Invocation_Count" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNG_Invocation_Count" />
+    <MESSAGE value="TestNG_CrossBrowser" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG_CrossBrowser" />
   </component>
 </project>
